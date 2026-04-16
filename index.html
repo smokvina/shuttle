@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #4689cc; -webkit-text-stroke: #4689cc}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #8cd3fe; -webkit-text-stroke: #8cd3fe}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #c27e65; -webkit-text-stroke: #c27e65}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #cacaca; -webkit-text-stroke: #cacaca}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6d7378; -webkit-text-stroke: #6d7378}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #cacaca; -webkit-text-stroke: #cacaca; min-height: 16.0px}
+    span.s1 {font-kerning: none; background-color: #171818}
+    span.s2 {font-kerning: none; color: #8cd3fe; background-color: #171818; -webkit-text-stroke: 0px #8cd3fe}
+    span.s3 {font-kerning: none; color: #6d6d6d; background-color: #171818; -webkit-text-stroke: 0px #6d6d6d}
+    span.s4 {font-kerning: none; color: #cacaca; background-color: #171818; -webkit-text-stroke: 0px #cacaca}
+    span.s5 {font-kerning: none; color: #c27e65; background-color: #171818; -webkit-text-stroke: 0px #c27e65}
+    span.s6 {font-kerning: none; color: #4689cc; background-color: #171818; -webkit-text-stroke: 0px #4689cc}
+    span.s7 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> html</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;</span><span class="s1">html</span><span class="s4"> </span><span class="s2">lang</span><span class="s3">=</span><span class="s5">"hr"</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s5">"UTF-8"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s2">name</span><span class="s3">=</span><span class="s1">"viewport"</span><span class="s4"> </span><span class="s2">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">title</span><span class="s3">&gt;</span><span class="s1">Split Airport Shuttle Kalkulator</span><span class="s3">&lt;/</span><span class="s6">title</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Tailwind CSS za dizajn --&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://cdn.tailwindcss.com"</span><span class="s3">&gt;&lt;/</span><span class="s6">script</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- React i ReactDOM --&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://unpkg.com/react@18/umd/react.production.min.js"</span><span class="s4"> </span><span class="s2">crossorigin</span><span class="s3">&gt;&lt;/</span><span class="s6">script</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"</span><span class="s4"> </span><span class="s2">crossorigin</span><span class="s3">&gt;&lt;/</span><span class="s6">script</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Babel za prevođenje React koda u pregledniku --&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://unpkg.com/@babel/standalone/babel.min.js"</span><span class="s3">&gt;&lt;/</span><span class="s6">script</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s3">&lt;</span><span class="s6">body</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"bg-slate-50 text-slate-800 font-sans"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"root"</span><span class="s3">&gt;&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">type</span><span class="s3">=</span><span class="s1">"text/babel"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const { useState } = React;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// --- IKONE (prilagođene za rad u jednom fileu) ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Truck = ({size=24, className=""}) =&gt; (&lt;svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;rect x="1" y="3" width="15" height="13"&gt;&lt;/rect&gt;&lt;polygon points="16 8 20 8 23 11 23 16 16 16 16 8"&gt;&lt;/polygon&gt;&lt;circle cx="5.5" cy="18.5" r="2.5"&gt;&lt;/circle&gt;&lt;circle cx="18.5" cy="18.5" r="2.5"&gt;&lt;/circle&gt;&lt;/svg&gt;);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const MapPin = ({size=24, className=""}) =&gt; (&lt;svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"&gt;&lt;/path&gt;&lt;circle cx="12" cy="10" r="3"&gt;&lt;/circle&gt;&lt;/svg&gt;);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Settings = ({size=24, className=""}) =&gt; (&lt;svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;circle cx="12" cy="12" r="3"&gt;&lt;/circle&gt;&lt;path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"&gt;&lt;/path&gt;&lt;/svg&gt;);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Users = ({size=24, className=""}) =&gt; (&lt;svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"&gt;&lt;/path&gt;&lt;circle cx="9" cy="7" r="4"&gt;&lt;/circle&gt;&lt;path d="M23 21v-2a4 4 0 0 0-3-3.87"&gt;&lt;/path&gt;&lt;path d="M16 3.13a4 4 0 0 1 0 7.75"&gt;&lt;/path&gt;&lt;/svg&gt;);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Info = ({size=24, className=""}) =&gt; (&lt;svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;&lt;line x1="12" y1="16" x2="12" y2="12"&gt;&lt;/line&gt;&lt;line x1="12" y1="8" x2="12.01" y2="8"&gt;&lt;/line&gt;&lt;/svg&gt;);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Briefcase = ({size=24, className=""}) =&gt; (&lt;svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;rect x="2" y="7" width="20" height="14" rx="2" ry="2"&gt;&lt;/rect&gt;&lt;path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"&gt;&lt;/path&gt;&lt;/svg&gt;);</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>function App() {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [ticketPrice, setTicketPrice] = useState(10);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [commissionPct, setCommissionPct] = useState(20);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [driverFee, setDriverFee] = useState(4);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [profitSplitA, setProfitSplitA] = useState(50);</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [drivingPartner, setDrivingPartner] = useState('A');</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [paxA, setPaxA] = useState(3);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [paxB, setPaxB] = useState(4);</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const handlePaxAChange = (val) =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>const num = parseInt(val);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>if (num + paxB &gt; 8) setPaxB(8 - num);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>setPaxA(num);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>};</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const handlePaxBChange = (val) =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>const num = parseInt(val);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>if (paxA + num &gt; 8) setPaxA(8 - num);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>setPaxB(num);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>};</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const totalPax = paxA + paxB;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const totalRevenue = totalPax * ticketPrice;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">            </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const commissionA = paxA * (ticketPrice * commissionPct / 100);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const commissionB = paxB * (ticketPrice * commissionPct / 100);</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">            </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const totalDriverFee = totalPax * driverFee;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">            </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const totalCosts = commissionA + commissionB + totalDriverFee;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const jointProfit = totalRevenue - totalCosts;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const profitA = jointProfit * (profitSplitA / 100);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const profitB = jointProfit * (1 - (profitSplitA / 100));</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const totalPartnerA = commissionA + profitA + (drivingPartner === 'A' ? totalDriverFee : 0);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const totalPartnerB = commissionB + profitB + (drivingPartner === 'B' ? totalDriverFee : 0);</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const singleCommission = ticketPrice * commissionPct / 100;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const singleProfit = ticketPrice - singleCommission - driverFee;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div className="min-h-screen p-4 md:p-8"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div className="max-w-6xl mx-auto space-y-6"&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>{/* Header */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div className="bg-white rounded-2xl shadow-sm p-6 border border-slate-200"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;h1 className="text-2xl md:text-3xl font-bold text-slate-900 flex items-center gap-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;Truck className="text-blue-600" size={32} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>Split Airport Shuttle - Kalkulator</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/h1&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;p className="text-slate-500 mt-1"&gt;Interaktivni model raspodjele prihoda između dva partnera.&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="flex gap-4 text-sm font-medium"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="bg-blue-50 text-blue-700 px-4 py-2 rounded-lg border border-blue-100 flex items-center gap-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;MapPin size={16} /&gt; Partner A (1 kombi)</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;span className="block text-xs font-normal opacity-80"&gt;Stari Pazar&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="bg-emerald-50 text-emerald-700 px-4 py-2 rounded-lg border border-emerald-100 flex items-center gap-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;MapPin size={16} /&gt; Partner B (2 kombija)</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;span className="block text-xs font-normal opacity-80"&gt;Zvonimirova 5&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div className="grid grid-cols-1 lg:grid-cols-12 gap-6"&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">                            </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>{/* Ljeva kolona: Globalni Parametri */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="lg:col-span-5 space-y-6"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="bg-white rounded-2xl shadow-sm p-6 border border-slate-200"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;h2 className="text-xl font-bold mb-6 flex items-center gap-2 text-slate-800"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;Settings className="text-slate-500" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>Globalni poslovni parametri</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/h2&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">                                    </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="space-y-6"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className="flex justify-between mb-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;label className="font-semibold text-sm"&gt;Cijena karte po putniku (€)&lt;/label&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;span className="font-bold text-blue-600"&gt;{ticketPrice} €&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;input type="range" min="5" max="20" step="1" value={ticketPrice} onChange={(e) =&gt; setTicketPrice(Number(e.target.value))} className="w-full accent-blue-600" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className="flex justify-between mb-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;label className="font-semibold text-sm"&gt;Provizija agenciji/prodavaču (%)&lt;/label&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;span className="font-bold text-blue-600"&gt;{commissionPct}% ({singleCommission.toFixed(2)} €)&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;input type="range" min="0" max="50" step="5" value={commissionPct} onChange={(e) =&gt; setCommissionPct(Number(e.target.value))} className="w-full accent-blue-600" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className="flex justify-between mb-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;label className="font-semibold text-sm"&gt;Naknada za vozilo po putniku (€)&lt;/label&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;span className="font-bold text-blue-600"&gt;{driverFee.toFixed(2)} €&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;input type="range" min="1" max="10" step="0.5" value={driverFee} onChange={(e) =&gt; setDriverFee(Number(e.target.value))} className="w-full accent-blue-600" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="pt-4 border-t border-slate-100"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className="flex justify-between mb-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;label className="font-semibold text-sm"&gt;Podjela zajedničke dobiti (%)&lt;/label&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className="flex items-center gap-2 mb-2 text-sm"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;span className="text-blue-700 font-bold w-16"&gt;A: {profitSplitA}%&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;input type="range" min="0" max="100" step="5" value={profitSplitA} onChange={(e) =&gt; setProfitSplitA(Number(e.target.value))} className="flex-1 accent-slate-800" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;span className="text-emerald-700 font-bold w-16 text-right"&gt;B: {100 - profitSplitA}%&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="mt-8 bg-slate-50 rounded-xl p-4 border border-slate-100"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;h3 className="text-sm font-bold mb-3 text-center"&gt;Struktura jedne karte od {ticketPrice}€&lt;/h3&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="flex h-10 rounded-lg overflow-hidden text-xs font-bold text-white text-center shadow-inner"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div style={{ width: `${(singleCommission / ticketPrice) * 100}%` }} className="bg-amber-400 flex items-center justify-center px-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>{singleCommission &gt; 1 &amp;&amp; `${singleCommission.toFixed(1)}€ Prod`}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div style={{ width: `${(driverFee / ticketPrice) * 100}%` }} className="bg-slate-500 flex items-center justify-center px-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>{driverFee &gt; 1 &amp;&amp; `${driverFee.toFixed(1)}€ Vozač`}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div style={{ width: `${(singleProfit / ticketPrice) * 100}%` }} className="bg-blue-600 flex items-center justify-center px-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>{singleProfit &gt; 1 &amp;&amp; `${singleProfit.toFixed(1)}€ Dobit`}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">                                </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="bg-indigo-50 rounded-2xl p-6 border border-indigo-100"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;h3 className="font-bold text-indigo-900 mb-2 flex items-center gap-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;Info size={18} /&gt; Prijedlog dnevnog reda</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/h3&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;ul className="text-sm space-y-1 text-indigo-700 font-medium"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;&lt;span className="inline-block w-20"&gt;Iz Splita:&lt;/span&gt; 06:30, 08:30, 10:30, 12:30, 15:00, 17:30, 19:30&lt;/li&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;&lt;span className="inline-block w-20"&gt;Iz ZL Split:&lt;/span&gt; 07:30, 09:30, 11:30, 13:30, 16:00, 18:30, 20:30&lt;/li&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>{/* Desna kolona: Simulacija jedne vožnje */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="lg:col-span-7 space-y-6"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="bg-white rounded-2xl shadow-sm p-6 border border-slate-200"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;h2 className="text-xl font-bold mb-6 flex items-center gap-2 text-slate-800"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;Users className="text-blue-500" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>Simulacija jedne vožnje</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/h2&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="bg-slate-50 p-4 rounded-xl border border-slate-200"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;label className="font-semibold text-sm block mb-3"&gt;Tko obavlja vožnju? (Kombi + Vozač)&lt;/label&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className="flex gap-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;button onClick={() =&gt; setDrivingPartner('A')} className={`flex-1 py-2 px-3 rounded-lg font-bold border transition-colors ${drivingPartner === 'A' ? 'bg-blue-600 text-white border-blue-600 shadow-md' : 'bg-white text-slate-600 hover:bg-slate-100'}`}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>Partner A</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/button&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;button onClick={() =&gt; setDrivingPartner('B')} className={`flex-1 py-2 px-3 rounded-lg font-bold border transition-colors ${drivingPartner === 'B' ? 'bg-emerald-600 text-white border-emerald-600 shadow-md' : 'bg-white text-slate-600 hover:bg-slate-100'}`}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>Partner B</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/button&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-4"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;label className="font-semibold text-sm block"&gt;Tko je prodao karte? (Kapacitet: {totalPax}/8)&lt;/label&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;div className="flex justify-between text-xs font-bold mb-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;span className="text-blue-700"&gt;A prodao: {paxA} putn.&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;input type="range" min="0" max="8" step="1" value={paxA} onChange={(e) =&gt; handlePaxAChange(e.target.value)} className="w-full accent-blue-600" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;div className="flex justify-between text-xs font-bold mb-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;span className="text-emerald-700"&gt;B prodao: {paxB} putn.&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;input type="range" min="0" max="8" step="1" value={paxB} onChange={(e) =&gt; handlePaxBChange(e.target.value)} className="w-full accent-emerald-600" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="mt-8 border-t border-slate-100 pt-6"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;h3 className="text-lg font-bold mb-4 text-center text-slate-800"&gt;Financijski ishod ove vožnje&lt;/h3&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="bg-slate-900 text-white rounded-xl p-5 mb-6 text-center"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;span className="block text-slate-400 text-sm mb-1"&gt;Ukupan prihod sakupljen od putnika&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;span className="text-4xl font-black"&gt;{totalRevenue.toFixed(2)} €&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="grid grid-cols-1 md:grid-cols-2 gap-4"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className={`p-5 rounded-xl border-2 transition-colors ${drivingPartner === 'A' ? 'border-blue-500 bg-blue-50' : 'border-slate-200 bg-white'}`}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;h4 className="font-bold text-blue-800 text-lg border-b border-slate-200 pb-2 mb-3 flex justify-between"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>Partner A {drivingPartner === 'A' &amp;&amp; &lt;span className="bg-blue-500 text-white text-xs px-2 py-1 rounded flex items-center gap-1"&gt;&lt;Truck size={12}/&gt; Vozač&lt;/span&gt;}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/h4&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;ul className="space-y-2 text-sm mb-4"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;li className="flex justify-between"&gt;&lt;span className="text-slate-600"&gt;Provizija ({paxA} kart.)&lt;/span&gt;&lt;span className="font-semibold"&gt;{commissionA.toFixed(2)} €&lt;/span&gt;&lt;/li&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>{drivingPartner === 'A' &amp;&amp; &lt;li className="flex justify-between text-blue-700 font-medium"&gt;&lt;span&gt;Trošak vozila ({totalPax} putn.)&lt;/span&gt;&lt;span&gt;{totalDriverFee.toFixed(2)} €&lt;/span&gt;&lt;/li&gt;}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;li className="flex justify-between text-slate-600"&gt;&lt;span&gt;Udio u dobiti ({profitSplitA}%)&lt;/span&gt;&lt;span className="font-semibold"&gt;{profitA.toFixed(2)} €&lt;/span&gt;&lt;/li&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/ul&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;div className="pt-3 border-t border-slate-200 flex justify-between items-center"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;span className="font-bold"&gt;Ukupno:&lt;/span&gt;&lt;span className="text-xl font-black text-blue-700"&gt;{totalPartnerA.toFixed(2)} €&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className={`p-5 rounded-xl border-2 transition-colors ${drivingPartner === 'B' ? 'border-emerald-500 bg-emerald-50' : 'border-slate-200 bg-white'}`}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;h4 className="font-bold text-emerald-800 text-lg border-b border-slate-200 pb-2 mb-3 flex justify-between"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>Partner B {drivingPartner === 'B' &amp;&amp; &lt;span className="bg-emerald-500 text-white text-xs px-2 py-1 rounded flex items-center gap-1"&gt;&lt;Truck size={12}/&gt; Vozač&lt;/span&gt;}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/h4&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;ul className="space-y-2 text-sm mb-4"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;li className="flex justify-between"&gt;&lt;span className="text-slate-600"&gt;Provizija ({paxB} kart.)&lt;/span&gt;&lt;span className="font-semibold"&gt;{commissionB.toFixed(2)} €&lt;/span&gt;&lt;/li&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>{drivingPartner === 'B' &amp;&amp; &lt;li className="flex justify-between text-emerald-700 font-medium"&gt;&lt;span&gt;Trošak vozila ({totalPax} putn.)&lt;/span&gt;&lt;span&gt;{totalDriverFee.toFixed(2)} €&lt;/span&gt;&lt;/li&gt;}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;li className="flex justify-between text-slate-600"&gt;&lt;span&gt;Udio u dobiti ({100 - profitSplitA}%)&lt;/span&gt;&lt;span className="font-semibold"&gt;{profitB.toFixed(2)} €&lt;/span&gt;&lt;/li&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/ul&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;div className="pt-3 border-t border-slate-200 flex justify-between items-center"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;span className="font-bold"&gt;Ukupno:&lt;/span&gt;&lt;span className="text-xl font-black text-emerald-700"&gt;{totalPartnerB.toFixed(2)} €&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="mt-4 flex justify-between items-center text-sm bg-slate-100 px-4 py-3 rounded-lg text-slate-600"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;span&gt;Generirana zajednička čista dobit (Fond):&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;span className="font-bold text-slate-800 text-base"&gt;{jointProfit.toFixed(2)} €&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">                                </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="bg-white rounded-2xl shadow-sm p-6 border border-slate-200 flex items-start gap-4"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="bg-blue-100 text-blue-600 p-3 rounded-full shrink-0"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;Briefcase size={24} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;h3 className="font-bold text-slate-800 mb-1"&gt;Kako ovo funkcionira u praksi?&lt;/h3&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;p className="text-sm text-slate-600"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>Na kraju svakog dana, svaki partner zadržava novac od karata koje je prodao. Zatim se na temelju evidencije vožnji radi obračun, te jedan partner isplaćuje razliku drugome prema ovom izračunu.</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p6"><span class="s7"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const root = ReactDOM.createRoot(document.getElementById('root'));</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>root.render(&lt;App /&gt;);</span></p>
+<p class="p1"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;/</span><span class="s1">body</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;/</span><span class="s1">html</span><span class="s3">&gt;</span></p>
+</body>
+</html>
